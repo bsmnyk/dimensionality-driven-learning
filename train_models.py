@@ -184,9 +184,10 @@ if __name__ == "__main__":
 #     args = parser.parse_args()
 #     main(args)
 
-    args = parser.parse_args(['-d', 'cifar-10', '-m', 'd2l',
-                                      '-e', '120', '-b', '128',
-                                      '-r', '60'])
+#    args = parser.parse_args(['-d', 'cifar-10', '-m', 'd2l',
+#                                      '-e', '120', '-b', '128',
+#                                      '-r', '60'])
+    args = parser.parse_args()
     main(args)
 
     K.clear_session()
